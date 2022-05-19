@@ -93,7 +93,7 @@ const questions = [
             type: 'list',
             name: 'License',
             message: 'What license is used?',
-            choices: ['MIT', 'Apache', 'GPL'],
+            choices: ['MIT', 'Apache', 'WTFPL'],
             default: 'No license used'
           },
 ]
@@ -116,7 +116,7 @@ function writeToFile(fileName, data) {
 function init() {
     inquirer.prompt(questions)
     .then((data) => {
-        writeToFile('REAME.md', generatorMarkdown(data));
+        writeToFile('README.md', generatorMarkdown(data));
         console.log(data)
     })
 }
