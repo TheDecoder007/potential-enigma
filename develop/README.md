@@ -1,24 +1,24 @@
-# Name
+# NAME
 
 
   # Description
-  salkdfjasdlkfjasldkjf
+  Descrio
 
   ## Table of Contents
 
-  * [Languages](##Languages)
-  * [Usage](##Usage)
-  * [Installation](##Installation)
-  * [Credits](##Credits)
-  * [Testing](##Testing)
-  * [Questions](##Questions)
-  * [License](##License)
+  * [Languages](#Languages)
+  * [Usage](#Usage)
+  * [Installation](#Installation)
+  * [Credits](#Credits)
+  * [Testing](#Testing)
+  * [Questions](#Questions)
+  * [License](#License)
 
   ## Languages Used
   * JavaScript
-  * ES6
+  * CSS
   * jQuery
-  * Node
+  * Bootstrap
   * undefined
   * undefined
   * undefined
@@ -36,9 +36,9 @@
   The following is needed to run testing: No testing available
 
   ## Questions
-  * Contact me here: No contact information available
+  * Contact me here: email@email.com
   * GitHub Profile: https://github.com/Murph
-  * Project Repository: https://github.com/Murph/Name
+  * Project Repository: https://github.com/Murph/NAME
 
   ## License
   This project is licensed with MIT
