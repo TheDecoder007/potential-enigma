@@ -3,10 +3,10 @@
 
 
 function renderLicenseBadge(License) {
-  // var License = `${data.License}`;
-  // if (License = [1]) {
-  //   '[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)'
-  // }
+  //var License = `${data.License}`;
+  if (`${data.License[1]}`) {
+    '[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)'
+  }
  
  
   // if (License === [1]) {
@@ -75,6 +75,7 @@ function generateMarkdown(data) {
 
   ## License
   This project is licensed with ${data.License}
+  
   [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
   [![License: WTFPL](https://img.shields.io/badge/License-WTFPL-brightgreen.svg)](http://www.wtfpl.net/about/)
