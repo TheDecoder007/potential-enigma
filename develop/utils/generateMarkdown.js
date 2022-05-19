@@ -1,8 +1,19 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
+
+
 function renderLicenseBadge(License) {
-  // if (data.License[1]) {
-  //   [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+  // var License = `${data.License}`;
+  // if (License = [1]) {
+  //   '[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)'
+  // }
+ 
+ 
+  // if (License === [1]) {
+  //    return '[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)'
+  // }
+  // else {
+  //   return 'no data'
   // }
 }
 
@@ -18,8 +29,10 @@ function renderLicenseSection(License) {}
 //title, description, language, instructions, installation,
 // credits,  license, testing, questions
 function generateMarkdown(data) {
-  return `# ${data.Title}
 
+  renderLicenseBadge();
+  return `# ${data.Title}
+  
 
   # Description
   ${data.Description}
@@ -29,7 +42,7 @@ function generateMarkdown(data) {
   * [Languages](#Languages)
   * [Usage](#Usage)
   * [Installation](#Installation)
-  * [Credits](#Credits)
+  * [Contribution](#Contributions)
   * [Testing](#Testing)
   * [Questions](#Questions)
   * [License](#License)
@@ -46,10 +59,10 @@ function generateMarkdown(data) {
   ## Usage
   The following must be done to use this app: ${data.Usage}
 
-  ## Installations Needed
+  ## Installation
   The following must be installed to run this app: ${data.Installation}
 
-  ## Other Contributions
+  ## Contributions
   ${data.Credits}
 
   ## Testing
@@ -65,8 +78,6 @@ function generateMarkdown(data) {
   [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
   [![License: WTFPL](https://img.shields.io/badge/License-WTFPL-brightgreen.svg)](http://www.wtfpl.net/about/)
-
-
 
 `;
 }

@@ -73,7 +73,7 @@ const questions = [
           },
         {
           type: 'input',
-          name: 'Credits',
+          name: 'Contribution',
           message: 'List any credits for your project',
           default: 'No other contributors'
         },
