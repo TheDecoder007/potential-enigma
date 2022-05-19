@@ -11,8 +11,8 @@ const generatorMarkdown = require('./utils/generateMarkdown');
 const questions = [ 
         {
           type: 'input',
-          name: 'title',
-          message: 'What is the title of your project? (Required)',
+          name: 'Title',
+          message: 'What is the name of your project? (Required)',
           validate: titleInput => {
             if (titleInput) {
               return true;
@@ -24,7 +24,7 @@ const questions = [
         },
         {
           type: 'input',
-          name: 'description',
+          name: 'Description',
           message: 'Provide a description of the project (Required)',
           validate: descriptionInput => {
             if (descriptionInput) {
@@ -37,13 +37,18 @@ const questions = [
         },
         {
           type: 'checkbox',
-          name: 'languages',
+          name: 'Languages',
           message: 'What did you build this project with? (Check all that apply)',
-          choices: ['JavaScript', 'HTML', 'CSS', 'ES6', 'jQuery', 'Bootstrap', 'Node']
+          choices: ['JavaScript', 'HTML', 'CSS', 'ES6', 'jQuery', 'Bootstrap', 'Node'],
+        //   default: falseChoice => {
+        //       if (falseChoice) {
+        //           return " "
+        //       }
+        //   }
         },
         {
             type: 'input',
-            name: 'github',
+            name: 'Github',
             message: 'Enter your Github Username (Required)',
             validate: nameInput => {
               if (nameInput) {
@@ -56,26 +61,39 @@ const questions = [
           },
         {
           type: 'input',
-          name: 'instructions',
+          name: 'Usage',
           message: 'Enter any usage instructions',
           default: 'No special instructions'
         },
         {
             type: 'input',
-            name: 'installation',
+            name: 'Installation',
             message: 'Enter any installation instructions',
-            default: 'No installation necessary'
+            default: 'No installations necessary'
           },
         {
           type: 'input',
-          name: 'credits',
+          name: 'Credits',
           message: 'List any credits for your project',
           default: 'No other contributors'
         },
         {
             type: 'input',
-            name: 'license',
+            name: 'Testing',
+            message: 'What is needed to test this app?',
+            default: 'No testing available'
+          },
+          {
+            type: 'link',
+            name: 'Questions',
+            message: 'What is your email address?',
+            default: 'No contact information available'
+          },
+        {
+            type: 'list',
+            name: 'License',
             message: 'What license is used?',
+            choices: ['MIT', 'Apache', 'GPL'],
             default: 'No license used'
           },
 ]
