@@ -32,8 +32,7 @@ function renderLicenseLink(License) {}
 function renderLicenseSection(License) {}
 
 // TODO: Create a function to generate markdown for README
-//title, description, language, instructions, installation,
-// credits,  license, testing, questions
+
 function generateMarkdown(data) {
 
   // renderLicenseBadge();
@@ -64,7 +63,7 @@ function generateMarkdown(data) {
   The following must be installed to run this app: ${data.Installation}
 
   ## Contributions
-  ${data.Credits}
+  ${data.Contribution}
 
   ## Testing
   The following is needed to run testing: ${data.Testing}
