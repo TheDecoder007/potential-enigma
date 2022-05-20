@@ -5,7 +5,22 @@
 
 function renderLicenseBadge(License) {
   
-  // if (License(choices) === 'Apache') {
+//PROGRESS ON FIRST ONE
+  // if (`${License[0]}`) {
+  //   return '[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)'
+  // }
+  
+
+  //  if (`${License.choices[1]}`) {
+  //    return `[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)`
+  //  }
+
+
+    // if (`${License.choices}` === 'Apache') {
+    //   return '[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)'
+    // }
+  
+     // if (License(choices) === 'Apache') {
   //  '[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)'
 
   // }
@@ -35,7 +50,8 @@ function renderLicenseSection(License) {}
 
 function generateMarkdown(data) {
 
-  // renderLicenseBadge();
+  renderLicenseBadge()
+
   return `# ${data.Title}
   
 
@@ -84,3 +100,4 @@ function generateMarkdown(data) {
 }
 
 module.exports = generateMarkdown;
+module.exports = renderLicenseBadge;
