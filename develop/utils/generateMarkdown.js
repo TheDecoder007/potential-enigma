@@ -2,11 +2,17 @@
 // If there is no license, return an empty string
 
 
+
 function renderLicenseBadge(License) {
+  
+  // if (License(choices) === 'Apache') {
+  //  '[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)'
+
+  // }
   //var License = `${data.License}`;
-  if (`${data.License[1]}`) {
-    '[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)'
-  }
+  // if (`${data.License[1]}`) {
+  //   '[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)'
+  // }
  
  
   // if (License === [1]) {
@@ -30,7 +36,7 @@ function renderLicenseSection(License) {}
 // credits,  license, testing, questions
 function generateMarkdown(data) {
 
-  renderLicenseBadge();
+  // renderLicenseBadge();
   return `# ${data.Title}
   
 
@@ -48,13 +54,8 @@ function generateMarkdown(data) {
   * [License](#License)
 
   ## Languages Used
-  * ${data.Languages[0]}
-  * ${data.Languages[1]}
-  * ${data.Languages[2]}
-  * ${data.Languages[3]}
-  * ${data.Languages[4]}
-  * ${data.Languages[5]}
-  * ${data.Languages[6]}
+  * ${data.Languages}
+
 
   ## Usage
   The following must be done to use this app: ${data.Usage}

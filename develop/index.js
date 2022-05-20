@@ -1,13 +1,13 @@
 // TODO: Include packages needed for this application
 const inquirer = require('inquirer');
 const fs = require('fs');
-const util = require('util');
+// const util = require('util');
 const generatorMarkdown = require('./utils/generateMarkdown');
 
 
 // TODO: Create an array of questions for user input
 //title, description, language, instructions, installation,
-// credits,  license
+// credits,  license, testing, questions
 const questions = [ 
         {
           type: 'input',
@@ -36,10 +36,10 @@ const questions = [
           }
         },
         {
-          type: 'checkbox',
+          type: 'input',
           name: 'Languages',
-          message: 'What did you build this project with? (Check all that apply)',
-          choices: ['JavaScript', 'HTML', 'CSS', 'ES6', 'jQuery', 'Bootstrap', 'Node'],
+          message: 'What did you build this project with?',
+        //   choices: ['JavaScript', 'HTML', 'CSS', 'ES6', 'jQuery', 'Bootstrap', 'Node'],
         //   default: falseChoice => {
         //       if (falseChoice) {
         //           return " "
@@ -96,7 +96,7 @@ const questions = [
             choices: ['MIT', 'Apache', 'WTFPL'],
             default: 'No license used'
           },
-]
+        ]
 
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
