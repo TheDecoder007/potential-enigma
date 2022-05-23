@@ -92,7 +92,7 @@ const questions = [
             type: 'list',
             name: 'License',
             message: 'What license is used?',
-            choices: ['MIT', 'Apache', 'WTFPL'],
+            choices: ['MIT', 'Apache', 'WTFPL', 'No License'],
             default: 'No license used'
           },
         ]

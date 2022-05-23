@@ -2,15 +2,25 @@
 // If there is no license, return an empty string
 
 
+// var License = `${License}`;
 
 function renderLicenseBadge(License) {
 
-//PROGRESS ON FIRST ONE
-  // if (`${License[0]}`) {
-  //   return `[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)`
-  // }
-  
 
+// PROGRESS ON FIRST ONE
+// if (`${License[0]}`) {
+//    `[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)`
+// }
+// else if (`${License[1]}`) {
+//    `[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)`
+// }  
+// else if (`${License[2]}`) {
+//      `[![License: WTFPL](https://img.shields.io/badge/License-WTFPL-brightgreen.svg)](http://www.wtfpl.net/about/)`
+//   }
+// else {
+//    " "
+// }
+}
   //  if (`${License.choices[1]}`) {
   //    return `[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)`
   //  }
@@ -36,7 +46,7 @@ function renderLicenseBadge(License) {
   // else {
   //   return 'no data'
   // }
-}
+
 
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
@@ -50,7 +60,7 @@ function renderLicenseSection(License) {}
 
 function generateMarkdown(data) {
 
-  renderLicenseBadge()
+   // renderLicenseBadge();
 
   return `# ${data.Title}
   
@@ -92,12 +102,13 @@ function generateMarkdown(data) {
   ## License
   This project is licensed with ${data.License}
   
-  [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
-  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-  [![License: WTFPL](https://img.shields.io/badge/License-WTFPL-brightgreen.svg)](http://www.wtfpl.net/about/)
-
-`;
+  
+  `;
 }
 
 module.exports = generateMarkdown;
 module.exports = renderLicenseBadge;
+
+// [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+// [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+// [![License: WTFPL](https://img.shields.io/badge/License-WTFPL-brightgreen.svg)](http://www.wtfpl.net/about/)
