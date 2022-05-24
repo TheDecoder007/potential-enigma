@@ -60,7 +60,7 @@ function renderLicenseSection(License) {}
 
 function generateMarkdown(data) {
 
-   // renderLicenseBadge();
+  //  renderLicenseBadge();
 
   return `# ${data.Title}
   
