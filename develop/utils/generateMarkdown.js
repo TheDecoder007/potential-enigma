@@ -4,7 +4,7 @@
 
 // var License = `${License}`;
 
-function renderLicenseBadge(License) {
+// function renderLicenseBadge(License) {
 
 
 // PROGRESS ON FIRST ONE
@@ -20,7 +20,7 @@ function renderLicenseBadge(License) {
 // else {
 //    " "
 // }
-}
+// }
   //  if (`${License.choices[1]}`) {
   //    return `[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)`
   //  }
@@ -107,7 +107,7 @@ function generateMarkdown(data) {
 }
 
 module.exports = generateMarkdown;
-module.exports = renderLicenseBadge;
+// module.exports = renderLicenseBadge;
 
 // [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 // [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
