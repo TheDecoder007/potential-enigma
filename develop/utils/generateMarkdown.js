@@ -8,7 +8,7 @@
 
 
 // PROGRESS ON FIRST ONE
-// if (`${License[0]}`) {
+// if (`${License.choices}` === [0]) {
 //    `[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)`
 // }
 // else if (`${License[1]}`) {
@@ -60,7 +60,7 @@ function renderLicenseSection(License) {}
 
 function generateMarkdown(data) {
 
-   // renderLicenseBadge();
+   // renderLicenseBadge(data);
 
   return `# ${data.Title}
   
