@@ -2,15 +2,15 @@
 // If there is no license, return an empty string
 
 
-// var License = `${License}`;
+// const License = `${License}`;
 
-// function renderLicenseBadge(License) {
+function renderLicenseBadge(License) {
 
 
 // PROGRESS ON FIRST ONE
-// if (`${License[0]}`) {
-//    `[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)`
-// }
+if (`${License.choices}` === [0]) {
+  return `[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)`
+}
 // else if (`${License[1]}`) {
 //    `[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)`
 // }  
@@ -20,7 +20,7 @@
 // else {
 //    " "
 // }
-// }
+}
   //  if (`${License.choices[1]}`) {
   //    return `[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)`
   //  }
@@ -60,7 +60,7 @@ function renderLicenseSection(License) {}
 
 function generateMarkdown(data) {
 
-  //  renderLicenseBadge();
+  renderLicenseBadge(data);
 
   return `# ${data.Title}
   
@@ -80,6 +80,7 @@ function generateMarkdown(data) {
 
   ## Languages Used
   * ${data.Languages}
+
 
 
   ## Usage
