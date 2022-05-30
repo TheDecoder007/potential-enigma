@@ -6,8 +6,6 @@
 
 function renderLicenseBadge(License) {
 
-
-
 if (`${answer.License}` === 'MIT') {
    `[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)`
 }
@@ -61,7 +59,7 @@ function renderLicenseSection(License) {}
 function generateMarkdown(data) {
 
 
-  renderLicenseBadge();
+  renderLicenseBadge(License);
 
    // renderLicenseBadge(data);
 
