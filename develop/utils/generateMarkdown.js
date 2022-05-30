@@ -114,11 +114,7 @@ function generateMarkdown(data) {
 }
 
 module.exports = generateMarkdown;
-<<<<<<< HEAD
-// module.exports = renderLicenseBadge;
-=======
 module.exports = renderLicenseBadge;
->>>>>>> aeb13be7d4749fcc068deaf1c96ceb47efb052d4
 
 // [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 // [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
