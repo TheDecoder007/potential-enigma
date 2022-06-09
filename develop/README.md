@@ -1,4 +1,4 @@
-# README Generator
+# README-Generator
   
   [![License: WTFPL](https://img.shields.io/badge/License-WTFPL-brightgreen.svg)](http://www.wtfpl.net/about/);
 
@@ -36,7 +36,7 @@
   ## Questions
   * Contact me here: TheDecoder007@gmail.com
   * GitHub Profile: https://github.com/TheDecoder007
-  * Project Repository: https://github.com/TheDecoder007/README Generator
+  * Project Repository: https://github.com/TheDecoder007/README-Generator
 
   ## License
   This project is licensed with WTFPL
