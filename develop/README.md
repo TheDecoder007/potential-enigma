@@ -1,8 +1,10 @@
-# fasdfa
+# README Generator
   
+  [![License: WTFPL](https://img.shields.io/badge/License-WTFPL-brightgreen.svg)](http://www.wtfpl.net/about/);
+
 
   # Description
-  sdfasdf
+  Create a professional README from the command line
 
   ## Table of Contents
 
@@ -15,29 +17,28 @@
   * [License](#License)
 
   ## Languages Used
-  * asdf
+  * JavaScript, Node, HTML
 
 
 
   ## Usage
-  The following must be done to use this app: asdf
+  The following must be done to use this app: Run node index from the command line to start
 
   ## Installation
-  The following must be installed to run this app: asd
+  The following must be installed to run this app: No installations necessary
 
   ## Contributions
-  f
+  No other contributors
 
   ## Testing
-  The following is needed to run testing: asdf
+  The following is needed to run testing: No testing available
 
   ## Questions
-  * Contact me here: asdf
-  * GitHub Profile: https://github.com/asdf
-  * Project Repository: https://github.com/asdf/fasdfa
+  * Contact me here: TheDecoder007@gmail.com
+  * GitHub Profile: https://github.com/TheDecoder007
+  * Project Repository: https://github.com/TheDecoder007/README Generator
 
   ## License
-  This project is licensed with MIT
-  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT);
+  This project is licensed with WTFPL
   
   
