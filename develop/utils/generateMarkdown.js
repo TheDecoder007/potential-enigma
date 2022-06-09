@@ -19,33 +19,6 @@ function renderLicenseBadge(License) {
   }
 }
 
-//   if (License === "MIT") {
-//   } else if (License === "Apache") {
-//   } else if (License === "WTFPL") {
-//   } else return "";
-//  if (`${License.choices[1]}`) {
-//    return `[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)`
-//  }
-
-// if (`${License.choices}` === 'Apache') {
-//   return '[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)'
-// }
-
-// if (License(choices) === 'Apache') {
-//  '[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)'
-
-// }
-//var License = `${data.License}`;
-// if (`${data.License[1]}`) {
-//   '[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)'
-// }
-
-// if (License === [1]) {
-//    return '[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)'
-// }
-// else {
-//   return 'no data'
-// }
 
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
