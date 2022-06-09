@@ -2,7 +2,6 @@
 const inquirer = require('inquirer');
 const fs = require('fs');
 const generatorMarkdown = require('./utils/generateMarkdown');
-const License = require('./utils/generateMarkdown');
 
 // TODO: Create an array of questions for user input
 //title, description, language, instructions, installation,
