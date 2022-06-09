@@ -10,7 +10,7 @@ Build a professional README directly from the command line.
 ## Links
 github link https://github.com/TheDecoder007/potential-enigma
 
-Video link: 
+Video link: https://drive.google.com/file/d/1EEGrCdnzWz2UITi6UtbI7oH6IGJVhizj/view
 
 ### Other Info
 * Answer prompts to create a custom README
